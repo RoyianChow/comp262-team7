@@ -1,0 +1,41 @@
+{
+  "raw_rows": 2972,
+  "missing_or_blank_text_rows_removed": 6,
+  "invalid_rating_rows_removed": 0,
+  "conflicting_sentiment_text_group_rows_removed": 32,
+  "duplicate_text_rows_removed": 1072,
+  "clean_rows": 1862,
+  "raw_rating_counts": {
+    "1.0": 22,
+    "2.0": 11,
+    "3.0": 33,
+    "4.0": 154,
+    "5.0": 2752
+  },
+  "clean_label_counts": {
+    "positive": 1808,
+    "negative": 27,
+    "neutral": 27
+  },
+  "missing_reviewer_id_raw": 0,
+  "missing_product_id_raw": 0,
+  "clean_word_count_min": 1,
+  "clean_word_count_max": 461,
+  "clean_word_count_median": 8.5,
+  "word_count_upper_iqr_fence": 44.0,
+  "long_review_outlier_flags_retained": 139,
+  "clean_reviews_over_100_words": 35,
+  "outlier_policy": "Flag lengths above Q3+1.5*IQR for inspection; retain all valid lengths.",
+  "dedup_policy": "Normalized review text; keep first when sentiment agrees; drop conflicting groups.",
+  "status": "Starter audit. Team must inspect examples and justify cleaning choices.",
+  "seed": 7,
+  "sample_size": 1000,
+  "sample_label_counts": {
+    "positive": 974,
+    "neutral": 16,
+    "negative": 10
+  },
+  "phase2_split_status": "TODO: full-category >=2000, 70/30 stratified by star rating. See phase2_kekelani.py.",
+  "phase1_role": "Reserve all original 1000 as a common evaluation subset; exclude all from Phase 2 training.",
+  "archive_sha256": "e8b25bb899869108e46417a7f1cf741b6ecae83336ed6500e4ecd87e046ed55e"
+}

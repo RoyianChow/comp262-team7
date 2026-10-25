@@ -1,0 +1,4 @@
+# Default project_starter.py needs only Python 3.10+ standard library.
+# These small dependencies enable optional VADER + TextBlob baselines.
+vaderSentiment==3.3.2
+textblob==0.19.0

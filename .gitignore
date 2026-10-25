@@ -1,0 +1,28 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Local credentials and large downloaded model caches
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.cache/
+models/
+hf_cache/
+
+# Editors and temporary Office files
+.idea/
+.vscode/
+~$*
+*.tmp
+Thumbs.db
+.DS_Store
+
+# Keep the supplied datasets and reproducible starter outputs tracked.
